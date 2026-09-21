@@ -7,12 +7,35 @@ article *:first-child {
 body {
   font-family: sans-serif;
 }
-h1{font-style: normal; font-weight: bolder; font-size: 36px;
+h1{font-style: normal; font-weight: bolder; font-size: 36px; color:#EEBF6D
 
 }
-h2{font-style: normal; font-weight: bold; font-size: 24px;
+h2{font-style: normal; font-weight: bold; font-size: 24px; color:#D7A148
 
 }
 p{font-style: normal; font-size: 14px;
 
+}
+.card { border-radius: 8px; box-shadow: 0 4px 8px rgba(77, 5, 83, 0.1); padding: 16px; margin: 16px; background-color: #adad9c; }
+
+.about {
+  background:#825100;
+  color: #EAE7E1;
+  margin: 16px
+  padding: 32px;
+  width: 200px;
+}
+
+#journey {
+ border: 4px solid #DDAA11;
+}
+#favorite {
+ border: 4px solid #560591;
+}
+#new-skills {
+ border: 4px solid #D7D2C4;
+}
+
+# hello-world {
+ border: 4px solid #5129E1;
 }
