@@ -32,12 +32,12 @@ p{font-style: normal; font-size: 14px;
 #favorite{
  border: 4px solid #560591;
 }
-#links {
- border: 4px solid #D7D2C4;heights: 50px;
-}
 #new-skills {
- border: 4px solid #D7D2C4; height: 250px
+ border: 4px solid #730284; height: 200px; text-align: middle;
 }
 #hello-world {
- border: 4px solid #5129E1; height: 50px;
+ border: 4px solid #5129E1; height: 150px; text-align: middle; 
+}
+#img {
+  border: 4px solid #7b6529; height: 200px; text-align: middle;
 }
