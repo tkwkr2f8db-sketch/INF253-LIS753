@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>INF 253/LIS 753</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Library Programs</h1>
+<table>
+    <caption>Upcoming Programs</caption>
+    <thead>
+        <tr>
+            <td>Program Name</td>
+            <td>Date</td>
+            <td>Time</td>  
+            <td>Location</td>
+             <td>Audience</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Community Book Club</td>
+            <td>Oct. 8</td>
+            <td>6:30 PM</td>  
+            <td>Room A</td>
+            <td>Adults</td>
+        </tr>
+        <tr>
+            <td>Family Story Time</td>
+            <td>Oct. 10</td>
+            <td>10:00 AM</td>  
+            <td>Children's Room</td>
+            <td>Families</td>
+        </tr>
+        <tr>
+            <td>Genealogy Workshop</td>
+            <td>Oct. 12</td>
+            <td>2:00 PM</td>  
+            <td>Room B</td>
+            <td>Adults</td>
+        </tr>
+        <tr>
+            <td>Intro to 3D Printing</td>
+            <td>Oct. 15</td>
+            <td>6:00 PM</td>  
+            <td>Makerspace</td>
+            <td>Teens & Adults</td>
+        </tr>
+        <tr>
+            <td>Local History Talk</td>
+            <td>Oct. 18</td>
+            <td>1:00 PM</td>  
+            <td>Auditorium</td>
+            <td>Everyone</td>
+        </tr>
+    </tbody>
+</table>
+    <h2>Register</h2>
+    <form>
+        <div>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Your Name"/>
+        </div>
+        <div>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Your Email"/>
+        </div>
+        <div>
+            <label for="program">Select Program:</label>
+            <select id="program" name="program">
+                <option value="community-book-club">Community Book Club</option>
+                <option value="family-story-time">Family Story Time</option>
+                <option value="genealogy-workshop">Genealogy Workshop</option>
+                <option value="intro-to-3d-printing">Intro to 3D Printing</option>
+                <option value="local-history-talk">Local History Talk</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" value="In Person" name="In-Person" />
+            <label for="in-person">In Person</label>
+        </div>
+        <div>
+            <input type="radio" value="Online" name="Online" />
+            <label for="online">Online</label>
+        </div>
+        <div>
+            <input type="submit" value="Register" />
+        </div>
+    </form>
+  </body>
+</html>
