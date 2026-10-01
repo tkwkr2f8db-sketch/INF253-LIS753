@@ -63,3 +63,9 @@ p{font-style: normal; font-size: 14px;
 #main-navigation ul li a:hover {
   background-color: #8c0ae9;
 }
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
