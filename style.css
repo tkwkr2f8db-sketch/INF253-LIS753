@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #0b0c10;
+}
+
 .container {
   background-color: #0b0c10; /* Dark Obsidian */
   color: #c5c6c7;            /* Silver text */
