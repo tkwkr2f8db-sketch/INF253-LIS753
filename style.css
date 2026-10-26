@@ -1,18 +1,3 @@
-   STEM+ LIBRARY - ACCESSIBLE COLOR PALETTE
-   Indigo: #30205C
-   Purple: #F5C451
-   Gold:   #F5C451
-   Cream:  #FFF9ED
-   Text:   #252238
-   
-  --indigo: #30205C;
-  --purple: #483080;
-  --gold: #F5C451;
-  --cream: #FFF9ED;
-  --white: #FFFFFF;
-  --text: #252238;
-  --border: #77718A;
-
   body {
   background-color: #FFF9ED;
   color: #252238;
