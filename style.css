@@ -1,6 +1,21 @@
-body {
-  background-color: #0b0c10;
-  color: #c5c6c7;
+   STEM+ LIBRARY - ACCESSIBLE COLOR PALETTE
+   Indigo: #30205C
+   Purple: #F5C451
+   Gold:   #F5C451
+   Cream:  #FFF9ED
+   Text:   #252238
+   
+  --indigo: #30205C;
+  --purple: #483080;
+  --gold: #F5C451;
+  --cream: #FFF9ED;
+  --white: #FFFFFF;
+  --text: #252238;
+  --border: #77718A;
+
+  body {
+  background-color: #FFF9ED;
+  color: #252238;
   font-family: 'Segoe UI', Roboto, sans-serif;
   padding: 30px;
   margin: 0; 
@@ -16,38 +31,37 @@ body {
 }
 
 h1{
-  color: #66fcf1;
-  text-shadow: 0 0 10px #66fcf1, 0 0 20px #45f3ff;
-  font-size: 28px;        
+  color: #30205C;
+  font-weight: bold;
+  font-size: 32px;        
   text-align: center;
 }
 
 h2{
-  color: #66fcf1;
-  text-shadow: 0 0 10px #66fcf1, 0 0 20px #45f3ff;
-  font-size: 24px;
+  color: #483080;
+  font-size: 26px;
+  font-weight: bold;
   text-align: center;
 }
 
 pp {
   font-style: normal; 
   font-size: 14px;
-  color: #c5c6c7;
+  color: #252238;
 }
 
 .card { 
   border-radius: 8px; 
-  box-shadow: 0 4px 15px rgba(102, 252, 241, 0.2);
   padding: 16px; 
   margin: 16px; 
-  background-color: #1f2833;
-  border: 1px solid #7856a8;
+  background-color: #ffffff ;
+  border: 1px solid #483080;
 }
 
 .about {
-  background: #1f2833;
-  color: #66fcf1;
-  border: 2px solid #66fcf1;
+  background: #30205C;
+  color: #ffffff;
+  border: 2px solid #F5C451;
   margin: 16px;       
   padding: 32px;
   width: 300px;
@@ -55,35 +69,50 @@ pp {
   max-width: 300px;
 }
 
+.about h2 {
+  color: white;
+}
+.about p {
+  color: white;
+}
+
 #journey {
-  border: 4px solid #45f3ff;
+  border: 4px solid #F5C451;
+   background-color: white;
   min-height: 300px; 
   display: flex;             
   flex-direction: column;
   justify-content: center;   
   align-items: center; 
   text-align: center;
-  padding: 12px;
+  padding: 16px;
 }
 
 #favorite {
-  border: 4px solid #560591;
+  border: 4px solid #483080;
+  background-color: white;
   text-align: center;
+  padding: 16px;
 }
 
 #new-skills {
-  border: 4px solid #7856a8;
+  border: 4px solid #30205C;
+  background-color: white;
   text-align: center;
+  padding: 16px;
 }
 
 #hello-world {
-  border: 4px solid #5129E1;
-  height: 75px; 
-  text-align: center; 
+  border: 4px solid #F5C451;
+  min-height: 75px; 
+  background-color: white;
+  text-align: center;
+  padding: 16px;
 }
 
 #img {
-  border: 4px solid #45f3ff;
+  border: 4px solid #F5C451;
+  background-color: white;
   height: 200px; 
   text-align: center;
 }
@@ -102,32 +131,36 @@ pp {
 #main-navigation ul li a {
   display: inline-block;     
   text-decoration: none;
-  color: #66fcf1;
-  background-color: #560591;
+  color: #ffffff;
+  background-color: #483080;
   padding: 8px 16px;
+  min-height: 40px;
   text-align: center;
-  border: 1px solid #66fcf1;
+  border: 2px solid #483080;
   border-radius: 4px;
-  transition: background-color 0.3s ease; 
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s ease; 
 }
 
 #main-navigation ul li a:hover {
-  background-color: #66fcf1;
-  color: #0b0c10;
-  box-shadow: 0 0 15px #66fcf1;
+  background-color: #F5C451;
+  color: #252238;
+  box-shadow: 0 0 15px #F5C451;
   transform: translateY(-3px);
 }
 
 .container {
-    background:#66fcf1;
+    background:#ffffff;
     padding:12px;
     margin:0 auto;
     width: 100%;
-    max-width: 98%;
-    box-sizing: border-box;  
+    max-width: 98%; 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 main {
@@ -148,24 +181,28 @@ main aside {
 
 table {
   width: 100%;
-  color: #c5c6c7;
+  color: #252238;
+  background-color: #ffffff;
 }
 
 th, td {
-  border: 1px solid #66fcf1;
+  border: 1px solid #77718A;
   padding: 12px;
   text-align: center;
 }
 
 th {
-  background-color: #0b0c10;
-  color: #66fcf1;
+  background-color: #30205C;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 caption {
+  color: #30205C;
   font-size: 24px;
   font-weight: bold;
   padding: 12px;
+  text-align: center;
 }
 
 form {
@@ -178,8 +215,18 @@ form {
 form label {
   display: block;
   margin-bottom: 6px;
+  color: #252238;
+  font-size: 16px;
+  font-weight: bold;
 }
 
+a {
+  color: #30205C;
+}
+
+a:hover {
+  color: #F5C451;
+}
 
 /* mobile */
 @media all and (min-width: 375px) {
