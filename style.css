@@ -229,9 +229,51 @@ a:hover {
 }
 
 /* mobile */
-@media all and (min-width: 375px) {
-   .container {max-width: 98%
+@media all and (min-width: 378px) and (max-width: 767px) {
+  body {
+    padding: 10px;
   }
+
+  .container {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  #main-navigation ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #main-navigation ul li a {
+    display: block;
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  main article,
+  main aside {
+    width: 100%;
+  }
+
+  .card {
+    margin: 10px 0;
+    padding: 16px;
+  }
+
+  .about {
+    width: 100%;
+    margin: 10px 0;
   }
   
 /* tablet */
