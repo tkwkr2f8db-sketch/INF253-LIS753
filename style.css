@@ -107,7 +107,8 @@ pp {
     margin:0 auto;
     max-width: 98%;
     box-sizing: border-box;
-form {
+
+    form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -116,7 +117,9 @@ form {
 
 /* mobile */
 @media all and (min-width: 375px) {
-   .container {max-width: 98%}
+   .container {max-width: 98%
+  flex-direction: column;
+  }
   }
   
 /* tablet */
