@@ -119,6 +119,7 @@ pp {
 @media all and (min-width: 375px) {
    .container {max-width: 98%
   flex-direction: column;
+  justify-content: center;
   }
   }
   
