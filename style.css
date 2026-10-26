@@ -101,18 +101,17 @@ pp {
   transform: translateY(-3px);
 }
 
-form {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
 .container {
     background:#66fcf1;
     padding:12px;
     margin:0 auto;
     max-width: 98%;
     box-sizing: border-box;
+form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 }
 
 /* mobile */
