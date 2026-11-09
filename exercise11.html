@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INF 253/LIS 753 - STEM+ eLibrary</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>  
+  <body>
+      <div class="container"></div>
+    <h1>STEM+ Library</h1>
+<div class="table-scroll" role="region"
+     aria-label="Upcoming programs table"
+     tabindex="0">
+    <table>
+        <caption>Upcoming Programs</caption>
+        <thead>
+            <tr>
+                <th>Program Name</th>
+                <th>Date</th>
+                <th>Time</th>  
+                <th>Location</th>
+                <th>Audience</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td>Teen Book Club</td>
+            <td>Oct. 8</td>
+            <td>6:30 PM</td>  
+            <td>Room A</td>
+            <td>Teens</td>
+            <td><button type="button" class="details-button" data-target="teen-book-club">View Details=</button></td>
+        </tr>
+        <tr>
+            <td>Family Story Time</td>
+            <td>Oct. 10</td>
+            <td>10:00 AM</td>  
+            <td>Children's Room</td>
+            <td>Families</td>
+            <td><button type="button" class="story-time" data-target="book-club">View Details=</button></td>
+        </tr>
+        <tr>
+            <td>Youth Genealogy Workshop</td>
+            <td>Oct. 12</td>
+            <td>2:00 PM</td>  
+            <td>Room B</td>
+            <td>Teens</td>
+            <td><button type="button" class="details-button" data-target="Genealogy">View Details=</button></td>
+        </tr>
+        <tr>
+            <td>Intro to 3D Printing</td>
+            <td>Oct. 15</td>
+            <td>6:00 PM</td>  
+            <td>Makerspace</td>
+            <td>Teens & Adults</td>
+            <td><button type="button" class="details-button" data-target="Makerspace">View Details=</button></td>
+        </tr>
+        <tr>
+            <td>Local History Talk</td>
+            <td>Oct. 18</td>
+            <td>1:00 PM</td>  
+            <td>Auditorium</td>
+            <td>Everyone</td>
+            <td><button type="button" class="details-button" data-target="History">View Details=</button></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div class="About">
+    <h2>Program Details</h2>
+    <p>Detail Here</p>
+</div>
+    <div id="teen-book-club" class="program-details"> hidden
+    <h3>Teen Books Club</h3>
+    <p>Teen books club is for tween to teen.</p>
+</div>
+<div id="story-time" class="program-details"> hidden
+    <h3>Family Storytime</h3>
+    <p>Storytime is enjoyed all ages.</p>
+</div>
+<div id="Genealogy" class="program-details"> hidden
+    <h3>Genealogy</h3>
+    <p>Genealogy workshops hour guides patrons through their ancestry.</p>
+</div>
+<div id="Makerspace" class="program-details"> hidden
+    <h3>Makerspace</h3>
+    <p>Learn to make unique things.</p>
+</div>
+<div id="History" class="program-details"> hidden
+    <h3>History Time</h3>
+    <p>History Lovers Delight.</p>
+</div>
+ <h2>Register</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Your Name"/>
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Your Email"/>
+        </div>
+                <div class="form-group">
+            <label for="program">Select Program:</label>
+            <select id="program" name="program">
+                <option value="community-book-club">Community Book Club</option>
+                <option value="family-story-time">Family Story Time</option>
+                <option value="genealogy-workshop">Genealogy Workshop</option>
+                <option value="intro-to-3d-printing">Intro to 3D Printing</option>
+                <option value="local-history-talk">Local History Talk</option>
+            </select>
+        </div>
+         <div class="form-group radio-group">
+            <label>Attendance Mode:</label>
+            <div>
+                <input type="radio" id="in-person" value="In Person" name="attendance-mode" />
+                <label for="in-person">In Person</label>
+            </div>
+            <div>
+                <input type="radio" id="online" value="Online" name="attendance-mode" />
+                <label for="online">Online</label>
+            </div>
+        </div>
+        
+        <div class="form-group submit-group">
+            <input type="submit" value="Register Now" />
+        </div>
+    </form>
+  <table class="footer-table">
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>About</th>
+                <th>Contact</th>  
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>eBranch</td>
+                <td>eBranch is a collection of online resources that can be accessed from anywhere through your browser or mobile device.</td>
+                <td>1,800-helping</td>
+            </tr>
+        </tbody>
+    </table>
+<script scr="script-ex11.js"></script>
+  </body>
+</html>
