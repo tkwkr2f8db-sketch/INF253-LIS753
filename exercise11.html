@@ -12,65 +12,101 @@
 <div class="table-scroll" role="region"
      aria-label="Upcoming programs table"
      tabindex="0">
-    <table>
-        <caption>Upcoming Programs</caption>
-        <thead>
-            <tr>
-                <th>Program Name</th>
-                <th>Date</th>
-                <th>Time</th>  
-                <th>Location</th>
-                <th>Audience</th>
-                <th>Details</th>
-            </tr>
-        </thead>
+  
+<table>
+    <caption>Upcoming Programs</caption>
+
+    <thead>
+        <tr>
+            <th>Program Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Audience</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+
     <tbody>
         <tr>
             <td>Teen Book Club</td>
             <td>Oct. 8</td>
-            <td>6:30 PM</td>  
+            <td>6:30 PM</td>
             <td>Room A</td>
             <td>Teens</td>
-            <td><button type="button" class="details-button" data-target="teen-book-club">View Details=</button></td>
+            <td>
+                <button type="button" class="details-button"
+                data-target="teen-book-club">
+                    View Details
+                </button>
+            </td>
         </tr>
+
         <tr>
             <td>Family Story Time</td>
             <td>Oct. 10</td>
-            <td>10:00 AM</td>  
+            <td>10:00 AM</td>
             <td>Children's Room</td>
             <td>Families</td>
-            <td><button type="button" class="story-time" data-target="book-club">View Details=</button></td>
+            <td>
+                <button type="button" class="details-button"
+                data-target="story-time">
+                    View Details
+                </button>
+            </td>
         </tr>
+
         <tr>
             <td>Youth Genealogy Workshop</td>
             <td>Oct. 12</td>
-            <td>2:00 PM</td>  
+            <td>2:00 PM</td>
             <td>Room B</td>
             <td>Teens</td>
-            <td><button type="button" class="details-button" data-target="Genealogy">View Details=</button></td>
+            <td>
+                <button type="button" class="details-button"
+                data-target="genealogy">
+                    View Details
+                </button>
+            </td>
         </tr>
+
         <tr>
             <td>Intro to 3D Printing</td>
             <td>Oct. 15</td>
-            <td>6:00 PM</td>  
+            <td>6:00 PM</td>
             <td>Makerspace</td>
             <td>Teens & Adults</td>
-            <td><button type="button" class="details-button" data-target="Makerspace">View Details=</button></td>
+            <td>
+                <button type="button" class="details-button"
+                data-target="makerspace">
+                    View Details
+                </button>
+            </td>
         </tr>
+
         <tr>
             <td>Local History Talk</td>
             <td>Oct. 18</td>
-            <td>1:00 PM</td>  
+            <td>1:00 PM</td>
             <td>Auditorium</td>
             <td>Everyone</td>
-            <td><button type="button" class="details-button" data-target="History">View Details=</button></td>
+            <td>
+                <button type="button" class="details-button"
+                data-target="history">
+                    View Details
+                </button>
+            </td>
         </tr>
     </tbody>
 </table>
+
 </div>
 <div class="About">
     <h2>Program Details</h2>
-    <p>Detail Here</p>
+
+    <p id="program-details">
+        Select a program's View Details button to learn more!
+    </p>
 </div>
     <div id="teen-book-club" class="program-details"> hidden
     <h3>Teen Books Club</h3>
@@ -144,6 +180,6 @@
             </tr>
         </tbody>
     </table>
-<script scr="script-ex11.js"></script>
+<script src="script-ex11.js"></script>
   </body>
 </html>
