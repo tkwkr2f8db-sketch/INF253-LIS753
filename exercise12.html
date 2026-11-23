@@ -131,6 +131,7 @@
 
  <h2>Register</h2>
     <form id = "registration-form">
+       
         <div>
 <label for="name">Your Name:</label>
             <input type="text" name="name" placeholder="Your Name" id="registration-name" required>
@@ -139,6 +140,7 @@
 <label for="email">Your Email:</label>
             <input type="text" name="email" placeholder="Your Email" id="registration-email" required>
               </div>
+
 <div label for="program">Select Program:</label>
             <select name="program" id="registration-program" required>
                 <option value="teen-book-club">Teen Book Club</option>
@@ -147,9 +149,15 @@
                 <option value="intro-to-3d-printing">Intro to 3D Printing</option>
                 <option value="local-history-talk">Local History Talk</option>
             </select>            
-                <div class="form-group">
-            <label for="program">Select Program:</label>
-            <select id="program" name="program">
+               
+            <div class="form-group">
+            <label for="registration-name">Your Name:</label>
+            <input type="text" id="registration-name" name="name" placeholder="Your Name"
+               required>
+               </div>
+             <div class="form-group">
+                 <label for="registration-program">Select Program:</label>
+                 <select id="registration-program" name="program" required>
                 <option value="community-book-club">Community Book Club</option>
                 <option value="family-story-time">Family Story Time</option>
                 <option value="genealogy-workshop">Genealogy Workshop</option>
@@ -157,6 +165,7 @@
                 <option value="local-history-talk">Local History Talk</option>
             </select>
         </div>
+        
          <div class="form-group radio-group">
             <label>Attendance Mode:</label>
             <div>
